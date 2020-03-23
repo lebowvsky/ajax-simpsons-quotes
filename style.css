@@ -1,0 +1,35 @@
+.section {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 80vh;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 100%;
+    justify-content: center;
+    align-content: space-between;
+}
+
+#chuck-norris img {
+    height: 40vh;
+}
+
+#reload {
+    font-size: 1.4rem;
+    color: #f2e14b;
+    background-color: #4aacd5;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    width: 200px;
+    margin: 5vh auto 5vh auto;
+}
+
+#reload:hover {
+    cursor: pointer;
+    color: #4aacd5;
+    background-color: #f2e14b;
+}
